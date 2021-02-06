@@ -1,0 +1,29 @@
+@import '../../styles/flexCenter';
+
+.root {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bg-image {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-image: url(../../images/trees.jfif);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  filter: blur(4px);
+}
+
+.title {
+  @include flexCenter(column);
+  outline: 10px gray auto;
+  color: white;
+  background-color: transparentize(black, 0.3);
+  width: 500px;
+  height: 200px;
+}
