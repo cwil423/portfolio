@@ -19,7 +19,7 @@ export default function Projects() {
           title="Camera Store"
           image={cameraStore}
           liveLink="https://inspiring-cray-1b1890.netlify.app/Cameras"
-          codeLink="http:/code"
+          codeLink="https://github.com/cwil423/camera-store"
           discription="A camera store built with React, Gatsby, Redux, Node, Express and MongoDb"
         />
         <ProjectCard
