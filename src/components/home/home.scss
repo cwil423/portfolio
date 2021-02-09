@@ -1,29 +1,43 @@
 @import '../../styles/flexCenter';
 
-.root {
- display: flex;
+.home-root {
+  display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-}
-
-.bg-image {
-  position: absolute;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  background-image: url(../../images/trees.jfif);
-  background-position: center;
+  height: 100%;
+  background-image: url(../../images/rocket.png);
   background-size: cover;
-  height: 100vh;
-  filter: blur(4px);
+  background-position: center;
 }
 
 .title {
   @include flexCenter(column);
-  outline: 10px gray auto;
+  font-size: 30px;
   color: white;
-  background-color: transparentize(black, 0.3);
+  // background-color: black;
+  // border: 1px solid white;
   width: 500px;
   height: 200px;
+  padding: 45px;
+  margin: 125px;
+  margin-bottom: 550px;
+  h1 {
+    margin: 0;
+  }
+}
+
+.subtitle {
+  @include flexCenter(column);
+  font-size: 30px;
+  color: white;
+  // background-color: black;
+  // border: 1px solid white;
+  width: 500px;
+  height: 200px;
+  padding: 45px;
+  margin: 125px;
+  margin-top: 550px;
+  h1 {
+    margin: 0;
+  }
 }

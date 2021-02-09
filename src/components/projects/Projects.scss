@@ -1,0 +1,16 @@
+@import '../../styles/flexCenter';
+@import '../../styles/variables';
+
+.projects-root {
+  @include flexCenter(row);
+  padding-top: 100px;
+  background-color: $main-color;
+}
+
+.projects-container {
+  @include flexCenter(row);
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  width: 1600px;
+}
