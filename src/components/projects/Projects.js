@@ -26,7 +26,6 @@ export default function Projects() {
         <ProjectCard
           title="This website"
           image={portfolio}
-          liveLink="http:/live"
           codeLink="https://github.com/cwil423/portfolio"
           discription="Portfolio project built with react. Includes custom animations made with photo editing software."
         />
