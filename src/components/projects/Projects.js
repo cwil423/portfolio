@@ -1,6 +1,6 @@
 import React from 'react';
 import './Projects.scss';
-import ProjectCard from '../ProjectCard/ProjectCard';
+import ProjectCard from '../projectCard/ProjectCard';
 import socialMedia from '../../images/FriendBookLogin.png';
 import cameraStore from '../../images/camera-store.png';
 

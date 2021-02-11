@@ -1,0 +1,11 @@
+@import '../../styles//flexCenter';
+
+.about-root {
+  @include flexCenter(row);
+  color: white;
+  height: 100%;
+  justify-content: space-around;
+  .bio {
+    width: 500px;
+  }
+}

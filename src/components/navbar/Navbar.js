@@ -9,11 +9,11 @@ export default function navbar() {
         <Link to="/" className="navbar-link">
           <h2>Home</h2>
         </Link>
-        <Link to="/projects" className="navbar-link">
-          <h2>Projects</h2>
-        </Link>
         <Link to="/about" className="navbar-link">
           <h2>About</h2>
+        </Link>
+        <Link to="/projects" className="navbar-link">
+          <h2>Projects</h2>
         </Link>
       </div>
     </div>
