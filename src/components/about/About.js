@@ -12,7 +12,7 @@ export default function About() {
 
       <div className="bio">
         <h1>Hi, my name is Cole Williamson!</h1>
-        <h2>I am a self taught web developer.</h2>
+        <h2>I am a self-taught web developer.</h2>
         <p>
           I have experience working with all levels of javascript full stack
           developement. My focus is on React based applications and I have
