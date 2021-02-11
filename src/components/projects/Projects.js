@@ -3,6 +3,7 @@ import './Projects.scss';
 import ProjectCard from '../projectCard/ProjectCard';
 import socialMedia from '../../images/FriendBookLogin.png';
 import cameraStore from '../../images/camera-store.png';
+import portfolio from '../../images/portfolio.png';
 
 export default function Projects() {
   return (
@@ -23,18 +24,11 @@ export default function Projects() {
           discription="A camera store built with React, Gatsby, Redux, Node, Express and MongoDb"
         />
         <ProjectCard
-          title="Project"
-          image="https://www.morrishospital.org/wp-content/uploads/2018/12/penguin2_2.jpg"
+          title="This website"
+          image={portfolio}
           liveLink="http:/live"
-          codeLink="http:/code"
-          discription="A project that I worked really hard on and am reall proud of."
-        />
-        <ProjectCard
-          title="Project"
-          image="https://www.morrishospital.org/wp-content/uploads/2018/12/penguin2_2.jpg"
-          liveLink="http:/live"
-          codeLink="http:/code"
-          discription="A project that I worked really hard on and am reall proud of."
+          codeLink="https://github.com/cwil423/portfolio"
+          discription="Portfolio project built with react. Includes custom animations made with photo editing software."
         />
       </div>
     </div>

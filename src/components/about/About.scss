@@ -5,8 +5,14 @@
   color: white;
   height: 100%;
   justify-content: space-around;
+  a {
+    color: inherit;
+  }
   .bio {
     width: 500px;
     font-size: x-large;
+  }
+  .links {
+    margin: 10px;
   }
 }
