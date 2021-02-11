@@ -1,10 +1,14 @@
 import React from 'react';
 import './About.scss';
+import rocket from '../../images/flying-rocket.gif';
 
 export default function About() {
   return (
     <div className="about-root">
-      <h1>Image</h1>
+      <div className="rocket">
+        <img src={rocket} />
+      </div>
+
       <div className="bio">
         <h1>Hi, my name is Cole Williamson!</h1>
         <h2>I am a self taught web developer.</h2>
