@@ -46,9 +46,6 @@
       margin: 0;
       transition: 5s;
     }
-    h4:hover {
-      color: red;
-    }
   }
   .subtitle {
     @include flexCenter(column);
